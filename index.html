@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <span class="cal">
+            <input id="display" type="text" placeholder="Enter any number">
+        </span>
+        <div class="cal btn">
+            <button class="but" type="submit" onclick="toogleclick('1')">1</button>
+            <button class="but" type="submit" onclick="toogleclick('2')">2</button>
+            <button class="but" type="submit" onclick="toogleclick('3')">3</button>
+            <button class="but" type="submit" onclick="toogleclick('+')">+</button>
+            <button class="but" type="submit" onclick="toogleclick('4')">4</button>
+            <button class="but" type="submit" onclick="toogleclick('5')">5</button>
+            <button class="but" type="submit" onclick="toogleclick('6')">6</button>
+            <button class="but" type="submit" onclick="toogleclick('-')">-</button>
+            <button class="but" type="submit" onclick="toogleclick('7')">7</button>
+            <button class="but" type="submit" onclick="toogleclick('8')">8</button>
+            <button class="but" type="submit" onclick="toogleclick('9')">9</button>
+            <button class="but" type="submit" onclick="toogleclick('*')">*</button>
+            <button class="equal" type="submit" onclick="calculate()">=</button>
+            <button class="but" type="submit" onclick="toogleclick('0')">0</button>
+            <button class="equal" type="submit" onclick="cleardisplay()">reset</button>
+            <button class="but" type="reset" onclick="toogleclick('/')">/</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
